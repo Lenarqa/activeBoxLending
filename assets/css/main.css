@@ -90,3 +90,33 @@ header{
 .btn:hover{
     opacity: 0.7;
 }
+
+/* about */
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+}
+
+.about-col{
+    flex: 1 1 0;
+}
+
+.about-item{
+    text-align: center;
+    margin: 0 30px 60px 30px;
+}
+
+.about-item-title{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #2d3033;
+}
+
+.about-item-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c7279;
+}
