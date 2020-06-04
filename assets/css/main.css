@@ -120,3 +120,53 @@ header{
     font-weight: 400;
     color: #6c7279;
 }
+
+/* projects */
+.projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-item{
+    position: relative;
+    background: linear-gradient(45deg,#f38181, #fce38a);
+    /* transition: opacity 0.2s linear; */
+}
+
+.project-item:hover .project-item-img{
+    opacity: .1;
+}
+
+
+.project-item-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.project-content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+
+.project-item:hover .project-content{
+    opacity: 1;
+}
+
+.project-title{
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.project-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
