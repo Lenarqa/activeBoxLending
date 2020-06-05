@@ -272,3 +272,25 @@ header{
     color: #fff;
     background-color: #fff;
 }
+
+/* letsgo */
+.letsgo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 70px 0;
+}
+
+.letsgo-title{
+    color: #2d3033;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.letsgo-text{
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2d3033;
+    margin: 20px 0 40px 0;
+}
