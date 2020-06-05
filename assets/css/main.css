@@ -218,3 +218,37 @@ header{
 .follow-item:hover{
     background-color: #909394;
 }
+
+/* slider */
+.slider-item{
+    display: flex;
+    background-color: #53354a;
+}
+
+.slider-img{
+
+}
+
+.slider-content{
+    width: 50%  ;
+    padding: 100px 80px;
+}
+
+.slider-text{
+    font-family: "Cardo", serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.slider-title{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-wolls{
+    display: flex;
+}
