@@ -294,3 +294,34 @@ header{
     color: #2d3033;
     margin: 20px 0 40px 0;
 }
+
+/* footer */
+.footer-bg{
+    background: #3a3e64;
+}
+
+.footer{
+    display: flex;
+    background-color: #3a3e64;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 33%;
+    text-align: center;
+}
+
+.footer-col-title{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+
+.footer-col-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #818297;
+    padding: 0 100px;
+    line-height: 1.6;
+}
