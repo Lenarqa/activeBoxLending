@@ -172,3 +172,49 @@ header{
 }
 
 /* people */
+.people{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.people-item{
+    margin: 0 30px 0 0;
+}
+
+.people-image{
+    
+}
+
+.people-name{
+    margin: 30px 0 15px 0;
+    font-size: 22px;
+    font-weight: 400;
+    color: #2d3033;
+}
+
+.people-prof{
+    font-size: 13px;
+    font-weight: 400;
+    color: #e84545;
+    text-transform: uppercase;
+}
+
+.people-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c7279;
+    margin: 20px 0;
+}
+
+.follow{
+    display: flex;  
+}
+
+.follow-item{
+    background-color: #c6cacc;
+}
+
+.follow-item:hover{
+    background-color: #909394;
+}
