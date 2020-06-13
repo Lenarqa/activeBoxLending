@@ -372,3 +372,97 @@ footer{
         padding: 10px 40px;
     }
 }
+
+@media(max-width: 990px){
+    /* header */
+    header{
+        justify-content: center;
+    }
+    
+    .logo{
+        width: 30%;
+    }
+
+    .nav-item{
+        padding-left: 20px;
+    }
+
+    /* intro */
+    .intro-content{
+        padding: 100px 0;
+    }
+
+    .intro-title{
+        font-size: 45px;
+    }
+
+    .intro-text{
+        font-size: 14px;
+    }
+
+    /* about */
+    .about-section{
+        margin-bottom: 60px;
+    }
+
+    /* projects */
+    .projects{
+        flex-wrap: wrap;
+    }
+    .project-item{
+        width: 50%;
+    }
+
+    .project-col{
+        display: flex;
+        width: 100%;
+    }
+
+
+    /* people */
+    .people{
+        margin: 100px -15px;
+        flex-wrap: wrap;
+        /* margin-bottom: 50px; */
+    }
+
+    .people-img{
+        margin: 0 auto;
+    }
+
+    .people-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+    
+    .follow{
+        justify-content: center;
+    }
+    /* slider */
+    .slider-img{
+        width: 55%;
+    }
+
+    .slider-content{
+        width: 50%;
+        padding: 10px 40px;
+    }
+
+    .slider-text{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .slider-title{
+        font-size: 11px;
+    }
+
+    .slider-wolls{
+        margin-top: 60px;
+    }
+}
