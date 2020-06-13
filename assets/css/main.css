@@ -515,6 +515,7 @@ footer{
     /* people */
     .people{
         justify-content: center;
+        margin-bottom: 50px;
     }
     /* slider */
     .slider-item{
@@ -542,3 +543,74 @@ footer{
     }
 }
 
+@media(max-width: 550px){
+    /* header */
+    header{
+        padding: 15px 0;
+    }
+    
+    /* intro */
+    .intro-title{
+        font-size: 30px;
+    }
+
+    .intro-text{
+        padding-bottom: 36px;
+    }
+
+    /* about */
+    .about-col{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .about-item{
+        width: 100%;
+        margin: 20px;
+    }
+
+    /* project */
+    .project-col{
+        flex-direction: column;
+    }
+
+    .project-item{
+        width: 100%;
+    }
+
+    /* people */
+    .people{
+        margin: 50px 0;
+    }
+
+    .people-item{
+        width: 100%;
+    }
+
+    .people-name{
+        margin: 15px 0 10px 0;
+    }
+
+    .people-text{
+        margin: 15px 0;
+    }
+
+    /* footer */
+    .footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-col:last-child{
+        margin-bottom: 0;
+    }
+
+    .footer-text{
+        padding: 15px;
+    }
+}
