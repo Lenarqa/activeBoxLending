@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     /* padding: 0; */
     font-family: "Raleway", serif;
@@ -136,11 +137,11 @@ header{
 }
 
 .nav-item:hover{
-    
+    color: #fff;
 }
 
 .nav-item:hover:after {
-    
+    opacity: 1;
 }
 
 .nav-item-active{
@@ -148,7 +149,7 @@ header{
 }
 
 .nav-item-active::after{
-    opacity: 1;
+   opacity: 1;
 }
 
 /* intro */
@@ -192,7 +193,7 @@ header{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin: 120px 0;
+    padding: 120px 0;
     flex-wrap: wrap;
 }
 
@@ -271,7 +272,7 @@ header{
 .people{
     display: flex;
     justify-content: space-around;
-    margin: 100px 0;
+    padding: 100px 0;
     /* flex-wrap: wrap; */
 }
 
@@ -467,9 +468,11 @@ footer{
     
     .logo{
         width: 30%;
+        cursor: pointer;
     }
 
     .logo-img{
+        cursor: pointer;
         display: block;
         width: 100%;
         height: auto;
@@ -494,7 +497,7 @@ footer{
 
     /* about */
     .about-section{
-        margin-bottom: 60px;
+        padding: 60px;
     }
 
     /* projects */
@@ -513,7 +516,7 @@ footer{
 
     /* people */
     .people{
-        margin: 100px 0px;
+        padding: 70px 0px;
         flex-wrap: wrap;
         /* margin-bottom: 50px; */
     }
@@ -603,7 +606,8 @@ footer{
 
     /* intro */
     .intro-content{
-        padding: 20px;
+        margin-top: 50px;
+        padding:20px;
     }
     
     .intro-text{
@@ -612,7 +616,7 @@ footer{
 
     /* about */
     .about-section{
-        margin: 50px 0;
+        padding: 50px 0;
         /* flex-direction: column; */
     }
 
@@ -629,7 +633,7 @@ footer{
     /* people */
     .people{
         justify-content: center;
-        margin-bottom: 50px;
+        padding: 50px 0;
     }
     /* slider */
     .slider-item{
@@ -703,7 +707,7 @@ footer{
 
     /* people */
     .people{
-        margin: 50px 0;
+        padding: 50px 0;
     }
 
     .people-item{
