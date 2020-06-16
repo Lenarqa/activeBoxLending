@@ -6,6 +6,10 @@ body{
     font-family: "Raleway", serif;
 }
 
+a{
+    cursor: pointer;
+}
+
 *,
 *:after,
 *:before{
@@ -32,6 +36,7 @@ header{
     justify-content: space-around;
     align-items: center;
     position: relative;
+    background-color: #333650;
 }
 
 .header-fixed{
@@ -182,6 +187,7 @@ header{
     color: #fff;
     background-color: #e84545;
     transition: opacity 0.2s linear;
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -322,8 +328,83 @@ header{
 }
 
 /* slider */
+.slick-dots{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    display: block;
+    width: 53%;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li.slick-active button::before {
+    opacity: .75;
+    color: black;
+}
+
+.slick-dots li button::before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+.slick-dots li button{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    color: transparent;
+    border: 1px solid black;
+    border-radius: 100%;
+    outline: none;
+    background: transparent;
+} */
+
 .slider-item{
     display: flex;
+    width: 100%;
     background-color: #53354a;
 }
 
@@ -458,6 +539,11 @@ footer{
         width: 70%;
         padding: 10px 40px;
     }
+
+    .slick-dots{
+        width: 20%;
+        bottom: 12%;
+    }
 }
 
 @media(max-width: 990px){
@@ -539,6 +625,11 @@ footer{
         justify-content: center;
     }
     /* slider */
+    .slick-dots{
+        width: 50%;
+        bottom: 0;
+    }
+
     .slider-img{
         width: 55%;
     }
@@ -636,6 +727,11 @@ footer{
         padding: 50px 0;
     }
     /* slider */
+    .slick-dots{
+        width: 100%;
+        bottom: -25px;
+    }
+
     .slider-item{
         flex-direction: column;
         text-align: center;

@@ -17,8 +17,6 @@ function CheckScroll(scrollOffset){
     }
 }
 
-
-
 // nav show-close
 $('#nav-btn').on('click', function(){
     $(this).toggleClass(' toggle-active');
@@ -61,3 +59,14 @@ $(".nav-item").on('click', function(event){
     $('#nav-btn').toggleClass('toggle-active');
     $('#nav').toggleClass('nav-active');
 })
+
+$('.single-item').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    swipe: true,
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000
+});
