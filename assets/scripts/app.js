@@ -3,7 +3,6 @@ var introHeight = $('#intro-content').innerHeight();
 var scrollOffset = $(window).scrollTop();
 
 $(window).on('scroll', function(){
-    console.log(introHeight)
     scrollOffset = $(this).scrollTop();
     CheckScroll(scrollOffset);//intro 
 });
