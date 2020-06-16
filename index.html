@@ -15,15 +15,15 @@
             <div class="logo">
                 <img class="logo-img" src="assets/img/header-logo.png" alt="logo">
             </div>
-            <button class="toggle-nav toggle-active">
+            <button class="toggle-nav" id="nav-btn">
                 <span class="toggle-nav-item">menu</span>
             </button>
-            <nav class="nav nav-active">
-                <div class="nav-item"><a>Features</a></div>
-                <div class="nav-item"><a>works</a></div>
-                <div class="nav-item"><a>our team</a></div>
-                <div class="nav-item"><a>testimonials</a></div>
-                <div class="nav-item"><a>download</a></div>
+            <nav class="nav" id="nav">
+                <div class="nav-item" data-scroll="#features"><a>Features</a></div>
+                <div class="nav-item" data-scroll="#works"><a>works</a></div>
+                <div class="nav-item" data-scroll="#ourTeam"><a>our team</a></div>
+                <div class="nav-item" data-scroll="#testimonials"><a>testimonials</a></div>
+                <div class="nav-item" data-scroll="#download"><a>download</a></div>
             </nav>
         </header>
         <div class="container">
@@ -42,7 +42,7 @@
 
     <section>
         <div class="container">
-            <div class="about-section">
+            <div class="about-section" id="features">
                 
                 <div class="about-col">
                     <div class="about-item">
@@ -298,5 +298,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/scripts/app.js"></script>
 </body>
 </html>

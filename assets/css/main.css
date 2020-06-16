@@ -33,7 +33,7 @@ header{
 }
 
 .toggle-nav{
-    /* display:none; */
+    display:none;
     position: relative;
     background-color: transparent;
     outline: none;
@@ -548,6 +548,10 @@ footer{
     /* header */
     header{
         justify-content: space-between;
+    }
+
+    .toggle-nav{
+        display: block;
     }
 
     .nav{
